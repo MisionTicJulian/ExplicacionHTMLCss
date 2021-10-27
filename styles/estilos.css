@@ -9,3 +9,36 @@ h3 {
 a {
     background-color: green;
 }
+
+#parrafo3 {
+    color: green;
+}
+
+.parrafoGris {
+    color: grey;
+}
+
+.parrafoNegro {
+    color: black;
+}
+
+.fondoAmarillo {
+    background-color: yellow;
+}
+
+.textoGrandeNegrita {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.imagenPequeña {
+    height: 300px;
+}
+
+.contenedorDivsFlex {
+    border: 2px solid green;
+    display: flex;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+}
