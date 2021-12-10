@@ -14,32 +14,31 @@ ul {
     justify-content: space-between;
 }
 
+.button{
+    border: 0px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-weight: bolder;
+}
+
+.button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
 .mainButton{
     background-color: green;
     color: white;
-    border: 0px;
-    padding: 5px 10px;
-    border-radius: 10px;
-    font-weight: bolder;
+}    
+
+.mainButton:hover{
     box-shadow: 1px 1px green;
 }
 
-.mainButton:hover{
-    cursor: pointer;
-    transform: scale(1.1);
-}
-
 .hmainButton{
-    background-color: rgb(129, 176, 204);
+    background-color: cadetblue;
     color: white;
-    border: 0px;
-    padding: 5px 10px;
-    border-radius: 10px;
-    font-weight: bolder;
-    box-shadow: 1px 1px rgb(72, 101, 102);
 }
 
-.hmainButton:hover{
-    cursor: pointer;
-    transform: scale(1.1);
+.hmainButton:hover {
+    box-shadow: 1px 1px cadetblue;
 }
