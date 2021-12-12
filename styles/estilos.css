@@ -8,38 +8,37 @@ ul {
     margin: 0px;
 }
 
-.navbar{
+.navbar {
     padding: 10px;
     display: flex;
     justify-content: space-between;
 }
 
-.mainButton{
+.button {
+    border: 0px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-weight: bolder;
+}
+
+.button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.mainButton {
     background-color: green;
     color: white;
-    border: 0px;
-    padding: 5px 10px;
-    border-radius: 10px;
-    font-weight: bolder;
 }
-
-.mainButton:hover{
-    cursor: pointer;
+.mainButton:hover {
     box-shadow: 1px 1px green;
-    transform: scale(1.1);
 }
 
-.secondaryButton{
+.secondaryButton {
     background-color: rgb(95, 177, 209);
     color: white;
-    border: 0px;
-    padding: 5px 10px;
-    border-radius: 10px;
-    font-weight: bolder;
-}
+    }
 
-.secondaryButton:hover{
-    cursor: pointer;
+.secondaryButton:hover {
     box-shadow: 1px 1px rgb(69, 181, 189);
-    transform: scale(1.1);
 }
