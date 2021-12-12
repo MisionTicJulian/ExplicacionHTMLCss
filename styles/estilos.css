@@ -14,7 +14,6 @@ ul {
     justify-content: space-between;
 }
 
-<<<<<<< HEAD
 .logo{
     height: 70px;
 }
@@ -35,6 +34,7 @@ ul {
     background-color: green;
     color: white;
 }
+
 .mainButton:hover {
     box-shadow: 1px 1px green;
 }
@@ -42,12 +42,12 @@ ul {
 .secondaryButton {
     background-color: rgb(95, 177, 209);
     color: white;
-    }
+}
 
 .secondaryButton:hover {
     box-shadow: 1px 1px rgb(69, 181, 189);
 }
-=======
+
 .buscar {
     background-color: white;
     border: 1px solid gray;
@@ -63,4 +63,3 @@ ul {
     outline: none;
     border: 0px;
 } 
->>>>>>> 8-crear-cuadro-busqueda
