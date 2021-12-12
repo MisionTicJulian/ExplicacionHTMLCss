@@ -14,31 +14,19 @@ ul {
     justify-content: space-between;
 }
 
-.button{
+.mainButton{
+    background-color: green;
+    color: white;
     border: 0px;
     padding: 5px 10px;
     border-radius: 10px;
     font-weight: bolder;
 }
 
-.button:hover{
+.mainButton:hover{
     cursor: pointer;
+    box-shadow: 1px 1px green;
     transform: scale(1.1);
 }
-.mainButton{
-    background-color: green;
-    color: white;
-}    
 
-.mainButton:hover{
-    box-shadow: 1px 1px green;
-}
 
-.hmainButton{
-    background-color: cadetblue;
-    color: white;
-}
-
-.hmainButton:hover {
-    box-shadow: 1px 1px cadetblue;
-}
