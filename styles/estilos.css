@@ -21,10 +21,11 @@ ul {
     padding: 5px 10px;
     border-radius: 10px;
     font-weight: bolder;
-    box-shadow: 1px 1px green;
+    
 }
 
 .mainButton:hover{
     cursor: pointer;
     transform: scale(1.1);
+    box-shadow: 1px 1px green;
 }
