@@ -8,7 +8,7 @@ ul {
     margin: 0px;
 }
 
-.navbar{
+.navbar {
     padding: 10px;
     display: flex;
     justify-content: space-between;
@@ -18,18 +18,31 @@ ul {
     height: 70px;
 }
 
-.mainButton{
-    background-color: green;
-    color: white;
+.button {
     border: 0px;
     padding: 5px 10px;
     border-radius: 10px;
     font-weight: bolder;
-    
 }
 
-.mainButton:hover{
+.button:hover {
     cursor: pointer;
     transform: scale(1.1);
+}
+
+.mainButton {
+    background-color: green;
+    color: white;
+}
+.mainButton:hover {
     box-shadow: 1px 1px green;
+}
+
+.secondaryButton {
+    background-color: rgb(95, 177, 209);
+    color: white;
+    }
+
+.secondaryButton:hover {
+    box-shadow: 1px 1px rgb(69, 181, 189);
 }
