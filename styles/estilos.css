@@ -22,7 +22,13 @@ ul {
     align-items: center;
 }
 
-.logo{
+.tittleHomework {
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(131, 131, 125);
+}
+
+.logo {
     height: 70px;
 }
 
@@ -116,4 +122,10 @@ font-size: x-large;
     border-top-left-radius: 10px;
 }
 
+.homework2 {
+    color: white;
+    justify-content: space-between;
+    display: flex;
+    padding: 10px;
+}
 
